@@ -2,7 +2,7 @@ module ActiveAdmin
   module Inputs
     class FilterSelect2MultipleInput < Formtastic::Inputs::SelectInput
 
-     include ActiveAdmin::Inputs::Filters::Base
+     include ActiveAdmin::Inputs::FilterBase
 
      def input_name
         "#{super}_in"
